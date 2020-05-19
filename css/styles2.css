@@ -1,0 +1,22 @@
+
+/* Standard image properties */
+
+.standardImgSizeLg{
+  height: 500px;
+  width: 600px;
+  border-radius: 100%;
+}
+
+
+/* Title */
+
+#title{
+  background-color: #ff4c68;
+  color: white;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.titleDiv{
+  margin: 50px 150px 0px;
+}

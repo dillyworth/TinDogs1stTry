@@ -1,0 +1,200 @@
+
+/* Navigation Bar */
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 24px;
+}
+
+#title{
+  background-color: #ff4c68;
+  color: white;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+h1{
+  font-family: "Ubuntu";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3{
+  font-family: "Montserrat";
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+
+/* Top Div */
+.Topdiv{
+  margin: 70px 150px 0px;
+}
+
+.downloadbutton{
+  width: 190px;
+  margin: 90px 20px 100px;
+}
+
+.fa{
+  margin-right: 13px;
+}
+
+.dogonphone{
+  transform: rotate(10deg);
+  margin-bottom: 100px;
+  height: 83%;
+  width:60%;
+}
+
+/* Middle Div */
+#features{
+  background-color: #ffbcbc;
+  color: black;
+  padding: 12rem 1rem 1rem;
+}
+
+.middleDiv{
+  padding top: 0px;
+    margin: 0px 150px 120px;
+    height: auto;
+}
+
+.middleDivHeaders{
+ margin: 0 auto 3rem;
+ font-family: "Montserrat";
+ font-size: 26px;
+ text-align: center;
+}
+
+.middleDivText{
+  margin: 0 auto 3rem;
+  font-family: "Ubuntu";
+  color: #5b5656;
+  font-size: 19px;
+  text-align: left;
+}
+
+/* Font Awesome for middle div */
+.middleDivIcons{
+ margin-bottom: 1rem;
+ color: #ff7272;
+}
+
+.middleDivIcons:hover{
+   color: #d9455f;
+}
+
+/* Carousel Divs */
+
+#testimonials{
+  text-align: center;
+  background-color:  #ff4c68;
+  color: white;
+}
+
+.testimonialImage{
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* The media press */
+
+#press{
+  background-color:  #ff4c68;
+  text-align: center;
+  padding-bottom: 9rem;
+  padding-top: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+.pressLogo{
+  width: 15%;
+  margin: auto 40px;
+}
+
+
+/* Carousel */
+#testimonialCarousel{
+    padding: 7% 15%;
+}
+
+
+/* Cards */
+#pricing{
+  padding: 100px;
+}
+
+
+
+.card-header{
+  background-color: #ffdee6;
+  border-top: solid;
+  border-left: solid;
+  border-right: solid;
+  border-bottom: solid;
+}
+.card-body{
+  height: 360px;
+  background-color: #ffbcbc;
+  text-align: center;
+  border-left: solid;
+  border-right: solid;
+  border-bottom: solid;
+}
+
+.card{
+  margin-bottom: 4rem;
+  padding: 1.5% 1.5%;
+  border: none;
+}
+
+
+
+/* Footer */
+#footer{
+padding: 2% 1%;
+text-align: center;
+}
+
+.bottomDivIcons{
+  padding: 1% 0.3% 1.6%;
+}
+
+.middleDivLast{
+  padding: 7% 34% 7%;
+  text-align: center;
+  background-color: #ff4c68;
+}
+
+.lastButtons{
+  margin: 3rem 1% 1rem;
+}
+
+
+
+
+
+/* When used on smartphones */
+
+@media (max-width: 1204px){
+  #title{
+    text-align: center;
+  }
+  .dogonphone{
+    position: static;
+    transform: rotate(0);
+  }
+  .downloadbutton{
+    width: 140px;
+    margin: 40px 3px 100px;
+  }
+  .middleDivLast{
+    padding: 7% 20% 7%;
+  }
+}
